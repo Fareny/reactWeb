@@ -1,0 +1,118 @@
+.nav {
+    background: radial-gradient(37.74% 81.78% at 50% 26.56%,rgba(148,101,255,.08) 0%,rgba(3,0,20,0) 100%);
+}
+
+.container {
+    padding: 20px 0;
+    justify-content: space-between;
+    display: flex;
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.nav-list__item {
+    font-size: 16px;
+    background-color: rgba(30,	30,	30, 0.5);
+    color: #fff;
+    list-style-type: none;
+    padding: 10px 12px;
+    line-height: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border: 1px solid #3e3e3e;
+}
+
+.nav-list__item:not(:first-child) {
+    border-right: none;
+    border-left: none;
+}
+
+.nav-list__item:hover {
+    transform: scale(1.03);
+}
+
+.nav-list__item:first-child {
+    border-radius: 999px 0px 0px 999px;
+    border-right: none;
+}
+
+.nav-list__item:last-child {
+    border-radius: 0 999px 999px 0;
+    border-right: 1px solid #3e3e3e !important;
+}
+
+.logo {
+    cursor: pointer;
+    height: 36px;
+    margin-right: 12px;
+    width: 36px;
+}
+
+.logoText {
+    font-size: 18px;
+}
+
+.logoText a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav-home-logo {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 800;
+    align-items: center;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-actions-login {
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 800;
+    transition: 0.3s ease;
+}
+
+.nav-actions-login:hover {
+    transform: scale(1.1);
+}
+
+.nav-actions-button {
+    cursor: pointer;
+    font-weight: 800;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.nav-actions-button:hover {
+    transform: scale(1.04);
+}
+
+
+.nav-line {
+    border-bottom: solid 1px rgb(255 255 255 / 10%);
+    margin-right: 20%;
+    margin-left: 20%;
+}

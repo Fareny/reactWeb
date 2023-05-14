@@ -1,0 +1,39 @@
+.form-container {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #fff;
+}
+
+h2{
+text-align: center;
+}
+
+.form {
+background-color: rgba(3, 3, 3, 0.5);
+padding: 25px;
+border-radius: 10px;
+}
+
+input {
+background: rgba(188, 188, 188, 0.3);
+font-weight: 800;
+padding: 6px;
+width: 96%;
+color: white;
+margin-bottom: 15px;
+margin-top: 5px;
+border: none;
+border-radius: 3px;
+}
+
+.reg-button {
+padding: 10px;
+width: 100%;
+font-family: 'Montserrat', sans-serif;
+}
