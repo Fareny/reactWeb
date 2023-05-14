@@ -4,21 +4,21 @@ import ButtonForm from '../components/BtnForm/ButtonForm';
 
 const Registration = () => {
 
-    return ( 
+    return (
         <div className='form-container'>
             <div className="form">
-            <h2>Register user:</h2>
+                <h2>Register user:</h2>
                 <form>
                     <p>Name: <input /></p>
-                    <p>Email: <input/></p>
-                    <p>Password: <input/></p>
-                    <p>Repeat password: <input/></p>
-                    
-                    <ButtonForm type='submit' btnText={'Отправить'}/>
+                    <p>Email: <input /></p>
+                    <p>Password: <input /></p>
+                    <p>Repeat password: <input /></p>
+
+                    <ButtonForm type='submit' btnText={'Отправить'} />
                 </form>
+            </div>
         </div>
-    </div>
-     );
+    );
 }
- 
+
 export default Registration;
